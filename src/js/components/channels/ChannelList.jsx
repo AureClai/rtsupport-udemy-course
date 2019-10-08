@@ -7,7 +7,7 @@ class ChannelList extends Component {
         return (
             <ul>
                 {this.props.channels.map( chan => {
-                    return <Channel channel={chan} setChannel={this.props.setChannel}/>
+                    return <Channel channel={chan} key={chan.id} {...this.props}/>
                 })}
             </ul>    
         )
@@ -16,7 +16,8 @@ class ChannelList extends Component {
 
 ChannelList.propTypes = {
     channels: PropTypes.array.isRequired,
-    setChannel: PropTypes.func.isRequired
+    setChannel: PropTypes.func.isRequired,
+    activeChannel: PropTypes.object.isRequired
 }
 
 export default ChannelList;

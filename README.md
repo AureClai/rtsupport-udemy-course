@@ -1,5 +1,4 @@
 # rtsupport-udemy-course
-
 ## Installation
 
 ```Shell
