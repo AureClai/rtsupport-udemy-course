@@ -1,6 +1,4 @@
-# React-Webpack-Babel-Template
-
-A template for my React Devs.
+# rtsupport-udemy-course
 
 ## Installation
 
