@@ -2,7 +2,7 @@
 ## Installation
 
 ```Shell
-git clone https://github.com/AureClai/react-webpack-babel-template
+git clone https://github.com/AureClai/rtsupport-udemy-course
 ```
 
 ## Use
